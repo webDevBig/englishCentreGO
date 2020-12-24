@@ -1,0 +1,28 @@
+#portfolio {
+    padding: 7em 0 10em;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    text-shadow: none;
+    color: #4a3461;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #fba802;
+}
+
+#mainNav .navbar-nav .nav-item:nth-of-type(3) .nav-link:before {
+    width: 100%;
+}
+
+#mainNav .navbar-nav .nav-item:nth-of-type(3) .nav-link {
+    color: #fba802 !important;
+}
+
+#portfolio .text-center {
+    padding: 3vw 0;
+}
+
+#portfolio {
+    padding: 7em 0 0em;
+}
