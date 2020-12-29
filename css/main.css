@@ -169,8 +169,18 @@ header.masthead {
     background-size: cover;
 }
 
+header h3 {
+    text-shadow: rgba(0, 0, 0, 0.9) 0px 0px 12px;
+}
+
+header .text-white-75 {
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: rgba(0, 0, 0, 0.9) 0px 0px 12px;
+}
+
 header.masthead h1 {
     font-size: 2.25vw;
+    text-shadow: rgba(0, 0, 0, 0.9) 0px 0px 12px;
 }
 
 @media (min-width: 992px) {
@@ -197,7 +207,7 @@ header.masthead h1 {
 
 @media (min-width: 1200px) {
     header.masthead h1 {
-        font-size: 3.4vw;
+        font-size: 3.8vw;
     }
 }
 
@@ -642,7 +652,7 @@ footer .text-muted {
         width: 100%;
     }
 }
-footer
-{
+
+footer {
     cursor: default;
 }
