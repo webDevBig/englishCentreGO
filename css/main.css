@@ -162,7 +162,8 @@ p {
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
-    background: linear-gradient(to bottom, rgba(74, 52, 97, 0.3) 0%, rgba(74, 52, 97, 0.3) 100%), url(../assets/img/bg-masthead.jpg);
+    background: linear-gradient(to bottom, rgba(74, 52, 97, 0.5) 0%, rgba(74, 52, 97, 0.5) 100%), url(../assets/img/bg-masthead.jpg);
+     background: linear-gradient(to bottom, rgba(74, 52, 97, 0.3) 0%, rgba(74, 52, 97, 0.3) 100%), url(../assets/img/bg-masthead2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -314,7 +315,7 @@ hr.light {
 }
 
 #services .item {
-    min-height: 12.2vw;
+    min-height: 12.8vw;
 }
 
 #services h3 {
@@ -364,8 +365,12 @@ hr.light {
     background-size: cover;
 }
 
+#portfolio {
+    margin: 5vw 0;
+}
+
 #portfolio .text-center {
-    padding: 7em 0 1.5em;
+    padding: 0 0 1.5em;
 }
 
 .svg-inline--fa.fa-w-18 {
@@ -413,10 +418,6 @@ hr.light {
 
 #contact .card a {
     color: inherit;
-}
-
-#contact .text-muted {
-    /*    width: 60%;*/
 }
 
 #contact a {
@@ -655,4 +656,46 @@ footer .text-muted {
 
 footer {
     cursor: default;
+}
+
+.team-member {
+    margin: 2vw 0 0;
+}
+
+.team-member img {
+    width: 12vw;
+    height: 12vw;
+    border: 0.3vw solid rgba(251, 168, 2, 1);
+    margin: 0 0 1.5vw;
+}
+
+#team {
+    background-color: #8d74a6 !important;
+}
+
+#team .text-white-50 {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+#team .btn-dark {
+    color: #4a3461;
+    background-color: #fba802;
+    border-color: #fba802;
+    transition: all .4s;
+    outline: none;
+}
+
+#team .btn-dark:focus {
+    outline: none;
+}
+
+#team .btn-dark:hover {
+    border-radius: 50%;
+}
+
+.img-fluid {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 258px;
 }

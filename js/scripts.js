@@ -62,46 +62,4 @@
 
 
 
-//
-//    var fontSize = 72;
-//    if (window.screen.width < 700)
-//        fontSize = 32;
-//    else if (window.screen.width < 1200)
-//        fontSize = 56;
-//    var vara = new Vara(
-//        "#container",
-//        "https://rawcdn.githack.com/akzhy/Vara/ed6ab92fdf196596266ae76867c415fa659eb348/fonts/Satisfy/SatisfySL.json",
-//  [
-//            {
-//                text: "English Centre GO",
-//                y: 50,
-//                fromCurrentPosition: {
-//                    y: false
-//                },
-//                duration: 3000
-//    },
-//  ], {
-//            strokeWidth: 2,
-//            color: "#fff",
-//            fontSize: fontSize,
-//            textAlign: "center"
-//
-//        }
-//    );
-//    vara.ready(function () {
-//        var erase = true;
-//        vara.animationEnd(function (i, o) {
-//            if (i == "no_erase") erase = false;
-//            if (erase) {
-//                o.container.style.transition = "opacity 1s 1s";
-////                o.container.style.opacity = 0;
-//            }
-//        });
-//        vara.get("github").container.onclick = function () {
-//            document.querySelector("#link").click();
-//        };
-//    });
-
-
-
 })(jQuery); // End of use strict
